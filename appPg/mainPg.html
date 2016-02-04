@@ -1,0 +1,36 @@
+<div class="conntianer-fluid">
+    <div class="col-xs-0 col-sm-0  col-lg-2 col-md-2 col-lg-2">
+
+    </div>
+
+    <div class="col-xs-4 col-sm-4 col-md-8 col-lg-8">
+
+
+        <div class="happyMelvin">
+            <h1>MELVIN POS - {{ Title }}</h1>
+            <h4>Receipt# {{RcptNo}} </h4>
+            <div data-ui-grid="SalesGrid" ng-hide="Payment" data-ui-grid-selection data-ui-grid-edit data-ui-grid-row-edit data-ui-grid-cellnav class="gridOrder"></div>
+            <div data-ui-grid="PaymentGrid" ng-show="Payment" data-ui-grid-selection data-ui-grid-edit data-ui-grid-row-edit data-ui-grid-cellnav class="gridPayment"></div>
+
+            <div class="checkOutInfo">
+                Total : {{ TotalOrder | currency}}
+                <br />
+                Paid : {{ TotalPaid | currency }}
+                <br />
+                Balance : {{ TotalOrder - TotalPaid | currency}}
+            </div>
+
+            <button class='articleButton' ng-hide="Payment" ng-click="onArticle()">Article</button>
+            <button class='paymentButton' ng-hide="Payment" ng-click="onPayment()">Payment</button>
+            <button class='articleButton' ng-show="Payment" ng-click="onOrder()">Order</button>
+            <button class='paymentButton' ng-show="Payment" ng-click="onSubmit()">Submit</button>
+        </div>
+
+
+    </div>
+
+    <div class="col-xs-1 col-sm-1 col-md-2 col-lg-2">
+
+    </div>
+  
+</div>

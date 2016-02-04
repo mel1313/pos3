@@ -1,0 +1,72 @@
+ <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-animate.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.13.4.js"></script>
+    <script src="js/app.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="ngExDialog/ngExDialog.css" />
+    <s<!--cript src="lib/angular.min.js"></script>-->
+    <script src="lib/angular-sanitize.js"></script>
+    <script src="lib/angular-translate.min.js"></script>
+    <script src="lib/fcsaNumber.min.js"></script>
+    <script type="text/javascript" src="lib/sweet-alert.min.js"></script>
+
+   
+    <!--<script src="lib/ui-bootstrap-tpls-0.11.2.min.js"></script>-->
+    <script src="js/dialogs-default-translations.min.js"></script>
+    <script src="js/dialogs.min.js"></script>
+
+    <script src="lib/angular-touch.min.js"></script>
+    <script src="lib/angular-animate.min.js"></script>
+    <script src="lib/ui-grid-stable.js"></script>
+    <!--<link rel="stylesheet" href="css/ui-grid-stable.css" type="text/css">-->
+
+    <link rel="stylesheet" href="http://ui-grid.info/release/ui-grid-stable.css" type="text/css">
+   
+    <script type="text/javascript" src="lib/angular-file-upload-shim.min.js"></script>
+    <script type="text/javascript" src="lib/angular-file-upload.min.js"></script>
+    <script type="text/javascript" src="ngExDialog/ngExDialog.js"></script>
+   
+    <script type="text/javascript" src="lib/sysbit-api.js"></script>
+
+
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css" >-->
+    <!--link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">-->
+
+    <link rel="stylesheet" href="css/dialogs.css">
+     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="lib/sweet-alert.css" />
+
+    <script type="text/javascript" src="lib/angular-route.min.js"></script>
+    <script type="text/javascript" src="lib/angular-local-storage.min.js"></script>
+
+    <!-- load Excel libraries For Meta Data -->
+    <script src="lib/excel/shim.js"></script>
+    <script src="lib/excel/jszip.js"></script>
+    <script src="lib/excel/xlsx.js"></script>
+
+
+    <script type="text/javascript" src="ngCtrls/LogInCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/MenuCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/GroupCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/UserIdCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/PersonPickerCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/SbuSfuCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/WfLookUpValueCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/WfApproverCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/WfSecurityCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/PiCrGridCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/SoGridCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/PiCrDataCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/SoDataCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/AddOnCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/TaskToCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/UpLoadCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/DelegateToCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/LaunchDocCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/WfNextCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/ConfirmCtrl.js"></script>
+    <script type="text/javascript" src="ngCtrls/ModalInstanceCtrl.js"></s
